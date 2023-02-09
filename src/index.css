@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+
+@import-normalize;
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #010101;
+  --color-green: #4caf50;
+  --color-red: #f44336;
+  --color-blue: #2196f3;
+  --color-primary-text: #212121;
+  --color-secondyry-text: #757575;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-primary-text);
+  line-height: 1.5;
+  background-color: #fafafa;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
